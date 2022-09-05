@@ -1,0 +1,29 @@
+{
+  "name": "raffle-bot",
+  "version": "1.0.0",
+  "description": "Takes in a hash-list, eliminates all NFTs being listed in a marketplace and returns a list of unique holders, winners will then be selected",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cardinal/staking": "^1.5.37",
+    "@metaplex-foundation/js": "^0.11.5",
+    "@nfteyez/sol-rayz": "^0.10.2",
+    "@project-serum/serum": "^0.13.65",
+    "@solana/web3.js": "^1.44.1",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "nanoid": "^4.0.0",
+    "unix-timestamp": "^1.0.2",
+    "winston": "^3.7.2"
+  }
+}
